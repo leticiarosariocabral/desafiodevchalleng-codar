@@ -1,0 +1,394 @@
+/******media queries********/
+
+@media (max-width: 640px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .nav-container li {
+        font-size: 15px;
+    }
+    #logo {
+        text-align: center;
+    }
+    .login {
+        display: none;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .imag {
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        margin-bottom: -100px;
+        margin-top: -25%;
+    }
+    .texto p strong {
+        font-size: 15px;
+    }
+    .texto h4 {
+        font-size: 32px;
+    }
+    .container .solicitar {
+        width: 100%;
+        height: 50px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flex img {
+        width: 100%;
+        margin: auto;
+        height: 45%;
+        margin-bottom: -42%;
+        margin-top: -10%;
+    }
+    .flex .servico-texto {
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .contato h5 {
+        font-size: 16px;
+    }
+    .contato input {
+        width: 200px;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .contato button {
+        margin: auto;
+        width: 222px;
+    }
+    .team .container-card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        width: 90%;
+        height: 35%;
+        margin: 10px;
+    }
+    .card #circulo {
+        width: 50px;
+        height: 50px;
+    }
+    .teams p {
+        font-size: 15px;
+    }
+    .teams h4 {
+        font-size: 18px;
+        margin-left: 70px;
+    }
+    #footer {
+        padding-top: 5px;
+    }
+    .containers {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin: auto;
+    }
+    .logo-footer {
+        text-align: center;
+    }
+    .logo-footer h1 {
+        padding-top: 15px;
+    }
+    .sobre h4 {
+        text-align: left;
+        padding-top: 20px;
+    }
+    .contatos {
+        margin-top: 15px;
+    }
+    .redes-sociais h5 {
+        margin-top: 20px;
+    }
+    .redes-sociais .icon {
+        justify-content: left;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 736px) {
+    .nav-container li {
+        font-size: 19px;
+    }
+    .texto p strong {
+        font-size: 19px;
+    }
+    .texto h4 {
+        font-size: 38px;
+        justify-content: center;
+    }
+    .container .solicitar a {
+        font-size: 20px;
+    }
+    .flex .servico-texto {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .contato h5 {
+        font-size: 19px;
+        justify-content: center;
+    }
+    .contato input {
+        width: 210px;
+        justify-content: center;
+    }
+    .contato button {
+        margin: auto;
+        width: 230px;
+        font-size: 18px;
+    }
+    .card #circulo {
+        width: 60px;
+        height: 60px;
+    }
+    .teams p {
+        font-size: 18px;
+    }
+    .teams h4 {
+        font-size: 18px;
+        margin-left: 80px;
+    }
+    #footer {
+        padding-top: auto;
+    }
+    .logo-footer p {
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+    .sobre p {
+        padding: 0;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .endereco p {
+        font-size: 18px;
+    }
+    .contatos a {
+        font-size: 18px;
+    }
+    .redes-sociais {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container h4 {
+        font-size: 37px;
+    }
+    .container p {
+        font-size: 20px;
+    }
+    .container .imag {
+        width: 300px;
+        height: 250px;
+    }
+    .container .solicitar {
+        width: 70%;
+        height: 20%;
+    }
+    .container .solicitar a {
+        font-size: 20px;
+    }
+    .nav-container li {
+        font-family: 'Roboto', sans-serif;
+    }
+    .flex .servico-texto {
+        font-size: 16px;
+        margin-left: 18%;
+    }
+    .flex img {
+        width: 300px;
+    }
+    .contato button a {
+        font-size: 18px;
+    }
+    .team .container-card {
+        margin: 0 15px;
+    }
+    .card {
+        width: 50%;
+        height: 20%;
+    }
+    .teams p {
+        margin-left: 98px;
+    }
+    .teams h4 {
+        margin-left: 100px;
+    }
+    .logo-footer h1 {
+        font-size: 40px;
+        margin-top: -10px;
+    }
+    .contato {
+        margin-left: 14%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container p {
+        font-size: 16px;
+    }
+    .container .imag {
+        width: 220px;
+        height: 200px;
+    }
+    .container h4 {
+        font-size: 20px;
+    }
+    .container .texto .solicitar {
+        width: 90%;
+    }
+    .flex .servico-texto {
+        font-size: 15px;
+    }
+    .flex img {
+        width: 200px;
+        height: auto;
+    }
+    .teams p {
+        font-size: 16px;
+    }
+    .containers {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+    }
+    .contato input,
+    .contato button {
+        margin-left: 20px;
+    }
+    .logo-footer {
+        margin-right: auto;
+    }
+    .logo-footer h1 {
+        font-size: 27px;
+    }
+    .logo-footer p {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+    .sobre h4 {
+        font-size: 20px;
+    }
+    .sobre p {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+    .contatos h4 {
+        font-size: 20px;
+    }
+    .redes-sociais h5 {
+        font-size: 20px;
+    }
+    .card {
+        width: 100%;
+        height: 55%;
+    }
+    .teams p {
+        font-size: 0.9rem;
+    }
+    .contatos {
+        padding: 0;
+    }
+    .contatos p {
+        font-size: 14px;
+    }
+    footer {
+        padding: 10px;
+    }
+    .redes-sociais {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .texto p strong {
+        font-size: 17px;
+    }
+    .container h4 {
+        text-align: center;
+        font-size: 27px;
+    }
+    .container .solicitar {
+        height: 50px;
+    }
+    .flex img {
+        width: 100%;
+    }
+    .flex .servico-texto {
+        margin-left: auto;
+    }
+    .card {
+        width: 90%;
+        height: 35%;
+    }
+    .containers {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: auto;
+    }
+    .logo-footer {
+        margin-left: 50px;
+    }
+    .logo-footer p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .container .imag {
+        width: 100%;
+    }
+    .container h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .solicitar {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .nav-container li {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    .texto p strong {
+        font-size: 1rem;
+    }
+    .container h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+    container .solicitar a {
+        font-size: 15px;
+    }
+    .contato input,
+    .contato button {
+        margin-left: 20px;
+    }
+    .contatos {
+        padding: 0;
+    }
+    .redes-sociais {
+        padding: 0;
+    }
+    .redes-sociais .icon {
+        padding: 0;
+    }
+}
