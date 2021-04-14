@@ -117,9 +117,10 @@
                 background: #D6000D;
                 border: 1px solid #D6000D;
                 border-radius: 10px;
-                width: 40%;
+                width: 50%;
                 height: 15%;
                 margin-top: 8%;
+                padding-left: 10px;
             }
             
             .container .solicitar a {
