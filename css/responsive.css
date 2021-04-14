@@ -56,6 +56,7 @@
     }
     .contato h5 {
         font-size: 16px;
+        margin-left: 9px;
     }
     .contato input {
         width: 200px;
@@ -294,7 +295,7 @@
         font-size: 20px;
     }
     .card {
-        width: 100%;
+        width: 90%;
         height: 55%;
     }
     .teams p {
@@ -361,10 +362,8 @@
         width: 100%;
         height: auto;
     }
-    .card {
-        margin-right: 10%;
-    }
-    .logo-footer h1 {
+    .logo-footer h1,
+    {
         text-align: center;
     }
 }
