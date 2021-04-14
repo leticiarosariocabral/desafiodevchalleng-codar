@@ -145,6 +145,7 @@
     .contato input {
         width: 210px;
         justify-content: center;
+        margin-left: 20px;
     }
     .contato button {
         margin: auto;
@@ -246,18 +247,16 @@
         width: 220px;
         height: 200px;
     }
-    .container h4 {
-        font-size: 20px;
-    }
     .container .texto .solicitar {
-        width: 90%;
+        width: 100%;
+        height: 50px;
     }
     .flex .servico-texto {
         font-size: 15px;
     }
     .flex img {
         width: 200px;
-        height: auto;
+        height: 220;
     }
     .teams p {
         font-size: 16px;
@@ -267,7 +266,6 @@
         margin-right: auto;
         padding: 15px;
     }
-    .contato input,
     .contato button {
         margin-left: 20px;
     }
@@ -275,7 +273,7 @@
         margin-right: auto;
     }
     .logo-footer h1 {
-        font-size: 27px;
+        font-size: 25px;
     }
     .logo-footer p {
         font-size: 14px;
@@ -287,6 +285,7 @@
     .sobre p {
         padding-top: 15px;
         font-size: 14px;
+        padding-right: 20px;
     }
     .contatos h4 {
         font-size: 20px;
@@ -299,13 +298,14 @@
         height: 55%;
     }
     .teams p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .contatos {
         padding: 0;
     }
     .contatos p {
         font-size: 14px;
+        padding-right: 20px;
     }
     footer {
         padding: 10px;
@@ -354,12 +354,18 @@
     .container .imag {
         width: 100%;
     }
-    .container h4 {
-        font-size: 30px;
-        text-align: center;
-    }
     .solicitar {
         width: 90%;
+    }
+    .flex img {
+        width: 100%;
+        height: auto;
+    }
+    .card {
+        margin-right: 10%;
+    }
+    .logo-footer h1 {
+        text-align: center;
     }
 }
 
