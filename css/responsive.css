@@ -1,399 +1,147 @@
 /******media queries********/
+@media(max-width:1250px){
+    .main-banner .container-item:last-of-type{
+        margin-left: 5rem;
+    }
+    .sub-titulo-principal{
+        font-size: 5rem;
+    }
+}
 
-@media (max-width: 640px) {
-    nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: auto;
+@media(max-width:1220px){
+    .container-card .card {
+        width: 45rem;
+      }
+}
+
+@media(max-width:1170px){
+    .container-card .card {
+        width: 40rem;
     }
-    .nav-container li {
-        font-size: 15px;
+    
+}
+
+@media(max-width:1134px){
+    .titulo-principal {
+        font-size: 2rem;
     }
-    #logo {
+    
+    .sub-titulo-principal{
+        font-size: 4.5rem;
+    }
+
+    .container .solicitar{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:1090px){
+    .container-item{
+        max-width: 38rem;
+    }
+}
+
+@media(max-width:1030px){
+    .main-banner .container-item:last-of-type{
+        margin:0;
+    }
+    .contato{
         text-align: center;
     }
-    .login {
-        display: none;
+    .form-contacto button{
+        margin-left: 0;
     }
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    .container .imag {
-        width: 100%;
-        height: 50%;
-        margin: auto;
-        margin-bottom: -100px;
-        margin-top: -25%;
-    }
-    .texto p strong {
-        font-size: 15px;
-    }
-    .texto h4 {
-        font-size: 32px;
-    }
-    .container .solicitar {
-        width: 100%;
-        height: 50px;
-    }
-    .flex {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .flex img {
-        width: 100%;
-        margin: auto;
-        height: 45%;
-        margin-bottom: -42%;
-        margin-top: -10%;
-    }
-    .flex .servico-texto {
-        font-size: 16px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-    }
-    .contato h5 {
-        font-size: 16px;
-        margin-left: 9px;
-    }
-    .contato input {
-        width: 200px;
-        margin-bottom: 10px;
-        justify-content: center;
-    }
-    .contato button {
-        margin: auto;
-        width: 222px;
-    }
-    .team .container-card {
-        display: flex;
-        flex-direction: column;
+    .team .container-card{
         flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .card {
-        width: 90%;
-        height: 35%;
-        margin: 10px;
-    }
-    .card #circulo {
-        width: 50px;
-        height: 50px;
-    }
-    .teams p {
-        font-size: 15px;
-    }
-    .teams h4 {
-        font-size: 18px;
-        margin-left: 70px;
-    }
-    #footer {
-        padding-top: 5px;
-    }
-    .containers {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin: auto;
-    }
-    .logo-footer {
-        text-align: center;
-    }
-    .logo-footer h1 {
-        padding-top: 15px;
-    }
-    .sobre h4 {
-        text-align: left;
-        padding-top: 20px;
-    }
-    .contatos {
-        margin-top: 15px;
-    }
-    .redes-sociais h5 {
-        margin-top: 20px;
-    }
-    .redes-sociais .icon {
-        justify-content: left;
-        font-size: 35px;
-    }
-}
-
-@media (max-width: 736px) {
-    .nav-container li {
-        font-size: 19px;
-    }
-    .texto p strong {
-        font-size: 19px;
-    }
-    .texto h4 {
-        font-size: 38px;
         justify-content: center;
     }
-    .container .solicitar a {
-        font-size: 20px;
-    }
-    .flex .servico-texto {
-        margin-top: 5%;
-        font-size: 20px;
-    }
-    .contato h5 {
-        font-size: 19px;
-        justify-content: center;
-    }
-    .contato input {
-        width: 210px;
-        justify-content: center;
-        margin-left: 20px;
-    }
-    .contato button {
-        margin: auto;
-        width: 230px;
-        font-size: 18px;
-    }
-    .card #circulo {
-        width: 60px;
-        height: 60px;
-    }
-    .teams p {
-        font-size: 18px;
-    }
-    .teams h4 {
-        font-size: 18px;
-        margin-left: 80px;
-    }
-    #footer {
-        padding-top: auto;
-    }
-    .logo-footer p {
-        font-size: 19px;
-        margin-bottom: 5px;
-    }
-    .sobre p {
-        padding: 0;
-        font-size: 18px;
-        padding-bottom: 10px;
-    }
-    .endereco p {
-        font-size: 18px;
-    }
-    .contatos a {
-        font-size: 18px;
-    }
-    .redes-sociais {
-        margin-bottom: 10px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .container h4 {
-        font-size: 37px;
-    }
-    .container p {
-        font-size: 20px;
-    }
-    .container .imag {
-        width: 300px;
-        height: 250px;
-    }
-    .container .solicitar {
-        width: 70%;
-        height: 20%;
-    }
-    .container .solicitar a {
-        font-size: 20px;
-    }
-    .nav-container li {
-        font-family: 'Roboto', sans-serif;
-    }
-    .flex .servico-texto {
-        font-size: 16px;
-        margin-left: 18%;
-    }
-    .flex img {
-        width: 300px;
-    }
-    .contato button a {
-        font-size: 18px;
-    }
-    .team .container-card {
-        margin: 0 15px;
-    }
-    .card {
-        width: 50%;
-        height: 20%;
-    }
-    .teams p {
-        margin-left: 98px;
-    }
-    .teams h4 {
-        margin-left: 100px;
-    }
-    .logo-footer h1 {
-        font-size: 40px;
-        margin-top: -10px;
-    }
-    .contato {
-        margin-left: 14%;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .container p {
-        font-size: 16px;
-    }
-    .container .imag {
-        width: 220px;
-        height: 200px;
-    }
-    .container .texto .solicitar {
-        width: 100%;
-        height: 50px;
-    }
-    .flex .servico-texto {
-        font-size: 15px;
-    }
-    .flex img {
-        width: 200px;
-        height: 220;
-    }
-    .teams p {
-        font-size: 16px;
-    }
-    .containers {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 15px;
-    }
-    .contato button {
-        margin-left: 20px;
-    }
-    .logo-footer {
-        margin-right: auto;
-    }
-    .logo-footer h1 {
-        font-size: 25px;
-    }
-    .logo-footer p {
-        font-size: 14px;
-        padding-right: 5px;
-    }
-    .sobre h4 {
-        font-size: 20px;
-    }
-    .sobre p {
-        padding-top: 15px;
-        font-size: 14px;
-        padding-right: 20px;
-    }
-    .contatos h4 {
-        font-size: 20px;
-    }
-    .redes-sociais h5 {
-        font-size: 20px;
-    }
-    .card {
-        width: 90%;
-        height: 55%;
-    }
-    .teams p {
-        font-size: 1rem;
-    }
-    .contatos {
-        padding: 0;
-    }
-    .contatos p {
-        font-size: 14px;
-        padding-right: 20px;
-    }
-    footer {
-        padding: 10px;
-    }
-    .redes-sociais {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .texto p strong {
-        font-size: 17px;
-    }
-    .container h4 {
-        text-align: center;
-        font-size: 27px;
-    }
-    .container .solicitar {
-        height: 50px;
-    }
-    .flex img {
-        width: 100%;
-    }
-    .flex .servico-texto {
-        margin-left: auto;
-    }
-    .card {
-        width: 90%;
-        height: 35%;
-    }
-    .containers {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-left: auto;
-    }
-    .logo-footer {
-        margin-left: 50px;
-    }
-    .logo-footer p {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width:414px) {
-    .container .imag {
-        width: 100%;
-    }
-    .solicitar {
-        width: 90%;
-    }
-    .flex img {
-        width: 100%;
+    .container-card .card{
+        width: 60rem;
         height: auto;
     }
-    .logo-footer h1,
-    {
+    .container-card .card:last-of-type{
+        margin-top: 2rem;
+    }
+}
+@media(max-width:1002px){
+    .sub-titulo-principal{
+        font-size: 4rem;
+    }
+}
+@media(max-width:958px){
+    .nav-principal{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-bottom: 3rem;
+    }
+    .opcoes .servico-texto{
+        font-size: 2rem;
+    }
+    .texto-container {
+        padding-top: 4rem;
+    }
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-item {
+        max-width: 40rem;
+    }
+    .main-banner .container-item {
+        margin: 0rem;
+    }
+    .texto{
         text-align: center;
     }
 }
-
-@media screen and (max-width:360px) {
-    .nav-container li {
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+@media(max-width:762px){
+    .footer {
+        flex-direction: column;
     }
-    .texto p strong {
-        font-size: 1rem;
+    .footer .icon{
+        justify-content: flex-start;
     }
-    .container h4 {
-        font-size: 30px;
+    .footer .icon p:first-of-type i{
+        padding-left: 0;
+    }
+    .footer-item{
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+    }
+    .footer-item:first-of-type{
         text-align: center;
+        align-self: center;
+        margin-left: 0;
     }
-    container .solicitar a {
-        font-size: 15px;
+    .servicos{
+        margin-top: 0rem;
     }
-    .contato input,
-    .contato button {
-        margin-left: 20px;
+    .servicos .imag{
+        order: -1;
     }
-    .contatos {
-        padding: 0;
+}
+@media(max-width:535px){
+    .form-contacto button{
+        margin-top: 1rem;
     }
-    .redes-sociais {
-        padding: 0;
+    .nav-container{
+        width: 100%;
+        justify-content: space-around;
     }
-    .redes-sociais .icon {
-        padding: 0;
+    .nav-container>li{
+        margin: 0;
+    }
+    .nav-container>li:last-of-type{
+        display: none;
+    }
+    .container-item {
+        max-width: 100%;
+    }
+}
+@media(max-width:357px){
+    .sub-titulo-principal {
+        font-size: 2rem;
     }
 }
